@@ -4,21 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vefþróun (Web Development) Course - Description</title>
+    <title>Vefþróun Course - Curriculum</title>
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="/description/style.css" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
   </head>
   <body>
     <div class="container main">
-      <div class="logo-wrapper">
-        <span>tskoli.dev</span>
-      </div>
+      <header>
+        <div class="logo-wrapper">
+          <a href="/"><span>tskoli.dev</span></a>
+        </div>
 
-      <h1 class="h1-small">Vefþróun (Web Development) Course - Description</h1>
+        <div class="menu">
+          <ul>
+            <li><a href="/description" class="active">Description</a></li>
+            <li><a href="/curriculum/">Curriculum</a></li>
+            <li><a href="https://io.tskoli.dev/guides/">Guides</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <h1>Vefþróun Course - Description</h1>
 
       <p>
         The Vefþróun course is aimed at students who want to learn front-end
@@ -96,13 +106,18 @@
     </div>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N45XKYKF1W"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-N45XKYKF1W"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-N45XKYKF1W');
-</script>
+      gtag("config", "G-N45XKYKF1W");
+    </script>
   </body>
 </html>
